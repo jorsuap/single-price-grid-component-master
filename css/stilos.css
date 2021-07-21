@@ -95,6 +95,7 @@ body {
 }
 
 .whyus {
+    box-sizing: border-box;
     width: 50%;
     background-color: hsl(179, 62%, 43%, 0.8);
     padding-left: 100px;
