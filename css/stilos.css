@@ -11,11 +11,11 @@ body {
 .continer {
     width: 100%;
     height: 100vh;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   flex-direction: column;
-   background-color: hsl(204, 43%, 93%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(204, 43%, 93%);
 }
 
 .seccion__white {
@@ -26,7 +26,7 @@ body {
     flex-direction: column;
     background-color: hsl(0, 0%, 100%);
     border-radius: 10px 10px 0 0;
-} 
+}
 
 .tittle {
 
@@ -55,7 +55,7 @@ body {
 .suscripcion {
     width: 50%;
     background-color: hsl(179, 62%, 43%);
-    padding:30px 40px;
+    padding: 30px 40px;
     border-radius: 0 0 0 10px;
 }
 
@@ -100,31 +100,35 @@ body {
 .whyus {
     width: 50%;
     background-color: hsl(179, 62%, 43%, 0.8);
-    padding:30px 90px 30px 40px;
+    padding: 30px 90px 30px 40px;
     border-radius: 0 0 10px 0px;
 }
-.whyus .extracto{
+
+.whyus .extracto {
     line-height: 25px;
 }
 
 @media(max-width:730px) {
-    .continer{
+    .continer {
         width: 100%;
         height: 100%;
         padding: 50px 0px;
     }
+
     .suscripcion {
         box-sizing: border-box;
         width: 320px;
-        padding: 20px 20px 20px 20px;    
-        border-radius: 0 0 0px 0px;  
+        padding: 20px 20px 20px 20px;
+        border-radius: 0 0 0px 0px;
     }
+
     .whyus {
-        padding:30px;
+        padding: 30px;
         box-sizing: border-box;
         width: 320px;
-        border-radius: 0 0 10px 10px; 
+        border-radius: 0 0 10px 10px;
     }
+
     .seccion__white {
         height: auto;
         padding: 20px 30px;
@@ -133,14 +137,17 @@ body {
         flex-direction: column;
         width: 320px;
     }
+
     .seccion__green {
         flex-direction: column;
         height: auto;
     }
+
     .singup {
         width: 100%;
     }
 }
+
 .attribution {
     font-size: 11px;
     text-align: center;
