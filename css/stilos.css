@@ -11,17 +11,22 @@ body {
 .continer {
     width: 100%;
     height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   background-color: hsl(204, 43%, 93%);
 }
 
 .seccion__white {
     box-sizing: border-box;
-    width: 100%;
-    height: 50vh;
-    padding-left: 100px;
+    padding: 30px 70px 30px 50px;
     display: flex;
     justify-content: center;
     flex-direction: column;
-}
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px 10px 0 0;
+} 
 
 .tittle {
 
@@ -44,16 +49,14 @@ body {
 
 .seccion__green {
     display: flex;
-    height: 50vh;
     color: hsl(0, 0%, 100%);
 }
 
 .suscripcion {
-    box-sizing: border-box;
     width: 50%;
     background-color: hsl(179, 62%, 43%);
-    padding-left: 100px;
-    padding-top: 100px;
+    padding:30px 40px;
+    border-radius: 0 0 0 10px;
 }
 
 .white {
@@ -90,39 +93,37 @@ body {
     direction: none;
     border: none;
     cursor: pointer;
-    box-shadow: 5px 5px 10px 5px hsl(179, 61%, 38%);
+    box-shadow: 5px 5px 15px 5px hsl(179, 61%, 38%);
     font-size: 1.1em;
 }
 
 .whyus {
-    box-sizing: border-box;
     width: 50%;
     background-color: hsl(179, 62%, 43%, 0.8);
-    padding-left: 100px;
-    padding-top: 100px;
+    padding:30px 90px 30px 40px;
+    border-radius: 0 0 10px 0px;
 }
 .whyus .extracto{
     line-height: 25px;
 }
 
-@media(max-width:900px) {
-    .suscripcion {
-        padding-left: 50px;
-        padding-top: 50px;
-    }
-    .whyus {
-        padding-left: 50px;
-        padding-top: 50px;
-    }
-}
 @media(max-width:730px) {
-    .suscripcion {
+    .continer{
         width: 100%;
-        padding: 20px 30px 30px;      
+        height: 100%;
+        padding: 50px 0px;
+    }
+    .suscripcion {
+        box-sizing: border-box;
+        width: 320px;
+        padding: 20px 20px 20px 20px;    
+        border-radius: 0 0 0px 0px;  
     }
     .whyus {
         padding:30px;
-        width: 100%;
+        box-sizing: border-box;
+        width: 320px;
+        border-radius: 0 0 10px 10px; 
     }
     .seccion__white {
         height: auto;
@@ -130,10 +131,10 @@ body {
         display: flex;
         justify-content: center;
         flex-direction: column;
-        margin:collapsing;
+        width: 320px;
     }
     .seccion__green {
-        display: block;
+        flex-direction: column;
         height: auto;
     }
     .singup {
